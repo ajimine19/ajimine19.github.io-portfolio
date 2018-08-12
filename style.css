@@ -87,9 +87,21 @@ img {
 
 .title {
   color: #5a5959;
-  font-size: 30px;
+  font-size: 20px;
   width: 100%;
-  margin: 15px;
+  margin: 1px;
+}
+
+h2
+{
+    margin-top:0px;
+}
+
+h3
+{
+  color: #ff0000;
+;
+  font-size: 20px;
 }
 
 .mobile-padding {
@@ -126,9 +138,18 @@ img {
 
 #hi {
   height: 100vh;
-  padding-top: 37vh;
+  padding-top: 30vh;
   text-align: center;
   font-size: 40px;
+  background-color: #fff;
+}
+
+#newpage-body {
+  height: 100vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  text-align: center;
+  font-size: 18px;
   background-color: #fff;
 }
 
@@ -203,7 +224,7 @@ img {
 }
 
 #portfolio-section .project {
-  width: 27vw;
+  width: 18vw;
 }
 
 .image-container {
@@ -516,6 +537,11 @@ img {
   text-align: center;
 }
 
+#bye2 {
+  padding: 7vh 0;
+  text-align: center;
+}
+
 #bye .icon {
   font-size: 38px;
 }
@@ -526,8 +552,18 @@ img {
   color: #ccc;
 }
 
+.links2 a {
+  display: inline-block;
+  padding: 0 5px;
+  color: #ccc;
+}
+
 .links a:hover, .links .a-hovering {
   color: #fff;
+}
+
+.links2 a:hover, .links .a-hovering {
+  color: #333;
 }
 
 @media (max-width: 1440px) {
@@ -537,7 +573,7 @@ img {
 }
 @media (max-width: 1050px) {
   #portfolio-section .project {
-    width: 40%;
+    width: 25%;
   }
 
   .work .project {
@@ -558,7 +594,7 @@ img {
     text-align: left;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 650px) {
   .section-content {
     padding: 0 10vw;
   }
